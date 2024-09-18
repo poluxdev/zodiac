@@ -1,0 +1,42 @@
+/* lunar.css */
+
+/* Estilos generales para el contenedor del formulario */
+.lunar-container {
+    background-color: #2c3e50; /* Un tono oscuro para el fondo */
+    color: #ecf0f1; /* Texto claro para contraste */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para la etiqueta del formulario */
+  .lunar-container .form-label {
+    color: #f39c12; /* Un tono dorado para imitar la luz de la luna */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el control de selección */
+  .lunar-container .form-control {
+    background-color: #34495e; /* Un tono azul oscuro para el fondo del control */
+    color: #ecf0f1; /* Texto claro */
+    border: 1px solid #1abc9c; /* Borde verde menta para resaltar */
+  }
+  
+  /* Estilo para el control de selección cuando está enfocado */
+  .lunar-container .form-control:focus {
+    border-color: #f39c12; /* Borde dorado cuando está enfocado */
+    box-shadow: 0 0 0 0.2rem rgba(243, 156, 18, 0.25); /* Sombra dorada */
+  }
+  
+  /* Estilo para el párrafo de información */
+  .lunar-container p {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  
+  /* Estilo para el texto fuerte dentro del párrafo */
+  .lunar-container p strong {
+    color: #f39c12; /* Un tono dorado para resaltar el texto importante */
+  }
+  

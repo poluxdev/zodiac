@@ -1,0 +1,44 @@
+/* ascendente.css */
+
+/* Estilos generales para el contenedor del formulario */
+.ascendente-container {
+    background-color: #ffffff; /* Color blanco para un contraste limpio */
+    color: #333333; /* Texto oscuro para una buena legibilidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo para la etiqueta del formulario */
+  .ascendente-container .form-label {
+    color: #3498db; /* Un azul tranquilo que contrasta bien con los otros estilos */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el control de selección */
+  .ascendente-container .form-control {
+    background-color: #f0f0f0; /* Un gris claro que combina bien con el blanco */
+    color: #333333; /* Texto oscuro */
+    border: 1px solid #3498db; /* Borde azul para resaltar */
+  }
+  
+  /* Estilo para el control de selección cuando está enfocado */
+  .ascendente-container .form-control:focus {
+    border-color: #2ecc71; /* Un verde suave para el borde cuando está enfocado */
+    box-shadow: 0 0 0 0.2rem rgba(46, 204, 113, 0.25); /* Sombra verde suave */
+  }
+  
+  /* Estilo para el párrafo de información */
+  .ascendente-container p {
+    font-size: 1rem;
+    margin-top: 15px;
+    line-height: 1.5; /* Mejorar la legibilidad del texto */
+  }
+  
+  /* Estilo para el texto fuerte dentro del párrafo */
+  .ascendente-container p strong {
+    color: #3498db; /* Azul para resaltar el texto importante */
+  }
+  

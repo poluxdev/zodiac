@@ -1,0 +1,44 @@
+/* solar.css */
+
+/* Estilos generales para el contenedor del formulario */
+.solar-container {
+    background-color: #f9c74f; /* Un tono cálido similar al color del sol */
+    color: #2d2d2d; /* Texto oscuro para contraste */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo para la etiqueta del formulario */
+  .solar-container .form-label {
+    color: #f94144; /* Un tono rojo anaranjado para resaltar el texto */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el control de selección */
+  .solar-container .form-control {
+    background-color: #f6f6f6; /* Un tono claro para el fondo del control */
+    color: #2d2d2d; /* Texto oscuro */
+    border: 1px solid #f94144; /* Borde rojo anaranjado para resaltar */
+  }
+  
+  /* Estilo para el control de selección cuando está enfocado */
+  .solar-container .form-control:focus {
+    border-color: #f9c74f; /* Borde amarillo cálido cuando está enfocado */
+    box-shadow: 0 0 0 0.2rem rgba(249, 199, 79, 0.25); /* Sombra amarilla cálida */
+  }
+  
+  /* Estilo para el párrafo de información */
+  .solar-container p {
+    font-size: 1rem;
+    margin-top: 15px;
+    line-height: 1.5; /* Mejorar la legibilidad del texto */
+  }
+  
+  /* Estilo para el texto fuerte dentro del párrafo */
+  .solar-container p strong {
+    color: #f94144; /* Un tono rojo anaranjado para resaltar el texto importante */
+  }
+  

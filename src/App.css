@@ -1,0 +1,66 @@
+/* General styling for the app */
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Cormorant Garamond', serif; /* Fuente decorativa */
+  background-color: #f5f5f5; /* Fondo suave */
+  color: #333333; /* Texto oscuro para buen contraste */
+}
+
+/* Styling for the main heading */
+h1 {
+  font-family: 'Cormorant Garamond', serif; /* Fuente para el título */
+  font-size: 5rem; /* Tamaño de fuente grande para destacar */
+  color: #4a90e2; /* Color azul para un toque astrológico */
+  text-shadow: 
+    0 0 5px #ffffff, /* Borde blanco sutil */
+    0 0 10px #ffffff, /* Borde blanco más pronunciado */
+    0 0 15px #ffffff, /* Borde blanco aún más pronunciado */
+    0 0 20px #4a90e2, /* Sombra azul para resaltar el texto */
+    0 0 30px #4a90e2, /* Sombra azul más difusa */
+    0 0 40px #4a90e2; /* Sombra azul más difusa */
+  margin-bottom: 40px; /* Espacio debajo del título */
+}
+
+/* Container for dropdown elements */
+.dropdown-container {
+  margin: 20px;
+  background-color: #ffffff; /* Fondo blanco para los controles */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 10px;
+}
+
+/* Styling for select elements */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #4a90e2; /* Borde azul para resaltar */
+  border-radius: 4px; /* Bordes redondeados */
+  background-color: #eaf2f8; /* Fondo azul claro */
+  color: #333333; /* Texto oscuro */
+}
+
+/* Styling for info sections */
+.info {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco para la información */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  font-size: 1.1rem;
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+/* Add an astrological touch with stars and cosmic elements */
+body {
+  background-image: url('/public/images/1.jpg'); /* Imagen de fondo astrológica */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Fondo fijo para un efecto de parallax */
+}
+
+/* Add a font related to astrology or a mystical feel */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
