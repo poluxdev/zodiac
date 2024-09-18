@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zodiac/static/css/main.81be9c0a.css",
+    "main.js": "/zodiac/static/js/main.8710c166.js",
+    "static/media/1.jpg": "/zodiac/static/media/1.09778b33c7472c9a3aa5.jpg",
+    "index.html": "/zodiac/index.html",
+    "main.81be9c0a.css.map": "/zodiac/static/css/main.81be9c0a.css.map",
+    "main.8710c166.js.map": "/zodiac/static/js/main.8710c166.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81be9c0a.css",
+    "static/js/main.8710c166.js"
+  ]
+}
